@@ -1,14 +1,14 @@
-const hideButton = document.getElementById("toggle-skills") as HTMLButtonElement;
-const skill = document.getElementById("skills") as HTMLElement;
+const toggleButton = document.getElementById("toggle-skills") as HTMLButtonElement;
+const skills = document.getElementById("skills") as HTMLElement;
 // const buttonPdf = document.getElementById("download-button") as HTMLButtonElement;
 
 
-hideButton.addEventListener("click", ()=>{
-    if(skill.style.display === "none"){
-        skill.style.display = "block";
+toggleButton.addEventListener("click", ()=>{
+    if(skills.style.display === "none"){
+        skills.style.display = "block";
     }
     else{
-        skill.style.display = "none";
+        skills.style.display = "none";
     }
 })
 
